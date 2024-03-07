@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Admin & Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- <link rel="stylesheet" href="sidebar.css"> -->
+  <!-- box icon -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <img src="img/logo-box.png" alt="logo">
+      <div class="logo_name">
+        ballot now
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="vote.html">
+          <i class='bx bx-package'></i>
+          <span class="links_name">
+            Vote
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name">
+            Voting Instruction
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="#">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out-circle' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+    <hr class="dash-line">
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="user_wrapper">
+        <div class="bell">
+          <i class='bx bx-bell' ></i>
+        </div>
+        <p>Oladele Sarah</p>
+        <img src="img/avatar-5.jpg" alt="">
+      </div>
+    </div>
+
+    <!-- End Top Bar -->
+
+    <div class="welcome">
+      <h2>Welcome back <span>Sarah</span></h2>
+      <p>Nice to see you again! Here is your student dashboard.</p>
+    </div>
+
+     <!-- Start Card Boxs -->
+
+    <div class="card-boxes">
+      <div class="box">
+        <h2>Exercise your right to vote</h2>
+        <p>There is currently an ongoing Student Union Government (SUG) election</p>
+        <div class="right_side">
+          <ul>
+            <li><a href="#">Continue to vote</a></li>
+            <li><a href="#">Read voting instructions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="box">
+        <h2><em>Coming soon!</em></h2>
+        <div class="right_side">
+        </div>
+      </div>
+    </div>
+
+    <!-- End Card Boxs -->
+    <!-- Start  Activity -->
+    
+    <div class="details">
+      <div class="recent_project">
+        <div class="card_header">
+          <h2>Your activity</h2>
+        </div>
+        <div class="activity">
+          <img src="img/Empty State.png" alt="">
+          <h2>No activity found</h2>
+          <p>You have not participated in any vote.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- End  Activity -->
+  </section>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Admin & Dashboard</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- <link rel="stylesheet" href="sidebar.css"> -->
+  <!-- box icon -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo_details">
+      <img src="img/logo-box.png" alt="logo">
+      <div class="logo_name">
+        ballot now
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">
+            Dashboard
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="vote.html" class="active">
+          <i class='bx bx-package'></i>
+          <span class="links_name">
+            Vote
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name">
+            Voting Instruction
+          </span>
+        </a>
+      </li>
+      <li class="login">
+        <a href="#">
+          <span class="links_name login_out">
+            Login Out
+          </span>
+          <i class='bx bx-log-out-circle' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+    <hr class="dash-line">
+  </div>
+  <!-- End Sideber -->
+  <section class="home_section">
+    <div class="topbar">
+      <div class="toggle">
+        <i class='bx bx-menu' id="btn"></i>
+      </div>
+      <div class="user_wrapper">
+        <div class="bell">
+          <i class='bx bx-bell' ></i>
+        </div>
+        <p>Oladele Sarah</p>
+        <img src="img/avatar-5.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <div class="main_container">
+      <div class="top">
+        <div>
+          <h2 class="heading1">Cast your vote here</h2>
+          <p class="ptag">Note that you can only vote for one candidate per category</p>
+        </div>
+        <div class="categ">
+          <p class="ptag">All Categories</p>
+          <i class='bx bx-chevron-down'></i>
+        </div>
+      </div>
+      <div class="candid">
+        <div class="candid_name top">
+          <h2 class="ptag">Student's Presidential Candidate</h2>
+          <div class="arrow">
+            <i class='bx bx-chevron-left' ></i>
+            <i class='bx bx-chevron-right' ></i>
+          </div>
+        </div>
+        <div class="card-boxes">
+          <div class="box">
+            <img src="img/avatar-2.jpg" alt="" style="width: 40px;">
+            <h2>Ogunya Fortunate O. <span>(Fortstar)</span></h2>
+            <h3>School of Engineering</h3>
+            <p>Mechanical Engineering</p>
+            <hr class="dash-line">
+            <div class="right_side">
+              <button>View manifesto</button>
+              <button>Vote candidate</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/avatar-2.jpg" alt="" style="width: 40px;">
+            <h2>Ogunya Fortunate O. <span>(Fortstar)</span></h2>
+            <h3>School of Engineering</h3>
+            <p>Mechanical Engineering</p>
+            <hr class="dash-line">
+            <div class="right_side">
+              <button>View manifesto</button>
+              <button>Vote candidate</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/avatar-2.jpg" alt="" style="width: 40px;">
+            <h2>Ogunya Fortunate O. <span>(Fortstar)</span></h2>
+            <h3>School of Engineering</h3>
+            <p>Mechanical Engineering</p>
+            <hr class="dash-line">
+            <div class="right_side">
+              <button>View manifesto</button>
+              <button>Vote candidate</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="img/avatar-2.jpg" alt="" style="width: 40px;">
+            <h2>Ogunya Fortunate O. <span>(Fortstar)</span></h2>
+            <h3>School of Engineering</h3>
+            <p>Mechanical Engineering</p>
+            <hr class="dash-line">
+            <div class="right_side">
+              <button>View manifesto</button>
+              <button>Vote candidate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Card Boxs -->
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
